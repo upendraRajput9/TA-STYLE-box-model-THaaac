@@ -80,13 +80,11 @@ div{
     background-color: red;
     margin: 10px;
 }
-footer{
+a{
     text-align: center;
     background-color: #a1a1a1;
     border-bottom: 3px blue dashed;
-}
-a{
     font-size: 20px;
-    margin: 10px;
+    margin: 5px;
     text-decoration-line: none;
 }
