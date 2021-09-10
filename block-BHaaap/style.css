@@ -1,0 +1,92 @@
+/* http://meyerweb.com/eric/tools/css/reset/ */
+/* v1.0 | 20080212 */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* custom */
+.boxh1{
+    border: 1px red solid;
+    text-align: center;
+    font-size: 30px;
+    background-color: #d18c1d;
+    padding: 10px;
+    
+}
+p{
+
+    width: 600px;
+    height: 400px;
+    background-color: #d1d631;
+    border: 2px black dotted;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+img{
+    border-radius: 50px;
+    padding: 10px;
+}
+div{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    background-color: teal;
+    margin: 10px;
+}
+footer{
+    text-align: center;
+    background-color: #a1a1a1;
+    border-bottom: 3px blue dashed;
+}
+a{
+    font-size: 20px;
+    margin: 10px;
+    text-decoration-line: none;
+}
