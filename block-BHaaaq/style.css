@@ -1,0 +1,105 @@
+/* http://meyerweb.com/eric/tools/css/reset/ */
+/* v1.0 | 20080212 */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* custom */
+h1{
+    font-size: 25px;
+    margin: 50px;
+    
+}
+div{
+    width: 150px;
+    height: 100px;
+    background-color: brown;
+    margin-left: 50px;
+    margin-top: 50px; 
+}
+.inline1{
+    display: inline-block;
+}
+.box1{
+    border: 5px double black;
+}
+.box2{
+    border: 5px dotted black;
+}
+.box3{
+    border: 5px dashed black;;
+}
+.box4{
+    border: 5px solid black;;
+}
+#bigbox{
+    background-color: coral;
+    width: 450px;
+    height: 600px;
+    margin: 10px;
+    border-top: 30px solid rgb(128,45,128);
+    border-bottom: 30px solid rgb(128,45,128);
+    border-left: 15px solid rgb(128,45,128);
+    border-right: 15px solid rgb(128,45,128);
+}
+article{
+    
+    border-right: 20px solid rgb(128,128,128);
+    border-left:20px solid rgb(64,129,6);
+    border-top: 20px solid rgb(35,74,251);
+    border-bottom: 20px solid rgb(253,247,49);
+    width: 410px;
+    height: 560px;
+}
+p{
+    color: white;
+    padding: 30px;
+}
+   
