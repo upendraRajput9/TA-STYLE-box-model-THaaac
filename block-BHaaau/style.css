@@ -73,6 +73,7 @@ hr{
     border-style: dotted;
     width: 600px;
     margin-top: 50px;
+    border-color: gray;
     
 }
 p{
@@ -110,7 +111,9 @@ article{
     width: 15px;
     height: 15px;
     border-radius: 50%;
-    margin-top: 40px;
+    margin-top: 40px;   
+}
+.circle{
     
 }
 .circleb{
