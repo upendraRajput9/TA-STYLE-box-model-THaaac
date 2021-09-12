@@ -1,0 +1,138 @@
+/* http://meyerweb.com/eric/tools/css/reset/ */
+/* v1.0 | 20080212 */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* custom */
+body{
+    background-color: rgb(46,49,65); 
+    color: white;
+}
+header{
+    text-align: center;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    margin-right: 30px;
+	
+}
+.a{ display: inline-block;
+	color: white;
+	text-decoration: none;
+	margin: 40px 150px;
+}
+h1{
+    font-size: 35px;
+    margin: 25px;
+}
+.s1{
+   margin: 150px 0;
+}
+h2{
+    font-size: 50px;
+	margin-left: 150px;
+}
+hr{
+   color: darkgrey; 
+   margin: 50px 0;
+   width: 1000px;
+   margin-left: 150px;
+  
+}
+.line{
+	width: 1000px;
+	margin-left: 150px;
+	color: darkgray;
+}
+.h2{
+	display: inline-block;
+    font-size: 20px;
+	margin-left: 30px;
+	color: darkgray;
+}
+.s2{
+	background-color: rgb(75,92,150);
+}
+.s3{
+	background-color: rgb(68,85,141);
+}
+h3{
+	
+	font-size: 25px;
+	padding-top: 40px;
+	padding-left: 150px;
+}
+img{
+	width: 350px;
+	height: 350px;
+	border-radius: 50%;
+	margin-left: 150px;
+	margin-top: 30px;
+	margin-bottom: 60px;
+}
+.camera{
+	margin-bottom: 20px;
+}
+.s4{
+	background-color: rgb(63,78,133);
+}
+p{
+	width: 1000px;
+	padding: 0 120px;
+	font-size: 12px;
+	margin-left: 30px;
+}
+.footer{
+	margin: 40px 30px;
+	color: gray;
+	font-size: 17px;
+}
